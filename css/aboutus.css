@@ -1,0 +1,116 @@
+.navbar-brand>img {
+  display: inline-block;
+  width: 50px;
+  margin-top: -15px;
+  margin-right: 25px;
+}
+
+/*.aboutusBG{
+	width: 100%;
+}*/
+
+h1{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top:17%;
+	color: rgba(33,150,243,1);
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Work Sans', sans-serif;
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 500px){
+  h1{
+    padding-top: 20%;
+  }
+  #team-section{
+    padding-top: 65% !important;
+  }
+}
+
+.img-circle{
+	border: 3px solid rgba(33,150,243,1);
+}
+
+.img-circle:hover{
+	filter: sepia(50%);
+}
+
+a:focus{
+   outline:none;
+}
+
+@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal {
+	overflow-y: auto;
+	position: fixed;
+	text-align: center;
+  padding: 0!important;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
+
+#team-section{
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.team-member{
+	padding: 1%;
+	margin-bottom: 30px;
+}
+
+.inline-element{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.member-name{
+	font-size: 24px;
+	font-weight: bolder;
+	padding-top: 5px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.member-title{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.member-description{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+p{
+	display: block;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.modal-body .member-description{
+	margin-left: 0;
+	margin-right: 0;
+}

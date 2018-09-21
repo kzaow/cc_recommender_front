@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- jQuery library -->
+  <script src="../js/jquery-3.1.1.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+  <script src="../js/card_page.js"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="../css/card_details.css">
+
+  <title>Credit Card Recommender</title>
+
+  <link rel="icon" type="image/png" href="../images/icon.png" />
+
+</head>
+
+<meta charset="utf-8" />
+
+<body>
+
+  <nav class="navbar navbar-default navigation-bar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- <div class="navbar-header"> -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              <img src="/images/icon.png">
+            </a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="aboutus">
+              <a href="aboutus.html">Team</a>
+            </li>
+            <li id="aboutus">
+              <a href="aboutus.html">Team</a>
+            </li>
+          </ul>
+<!--           <form class="nav navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+
+            </div>
+            <button class="btn btn-default" id="search-button" type="submit">
+          <div class="glyphicon glyphicon-search"></div>
+        </button>
+          </form> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav bar -->
+
+  <p id="test"></p>
+
+  <div class="container" id="top">
+    <div class="row-fluid">
+      <div class="row" id="img"></div>
+      <h2 id="nameOfCard"></h2>
+      <h4 id="issuerName"></h4>
+      <h4 id="PNN"></h4>
+      <button type="button" class="btn btn-lg btn-success" id="applyButton">
+          <div class="glyphicon glyphicon-credit-card"></div> Apply Now
+      </button>
+      <button type="button" class="btn btn-lg" id="backButton">
+          <div class="glyphicon glyphicon-arrow-left" id="leftArrow"></div>
+      </button>
+      <button type="button" class="btn btn-lg" id="downButton">
+          <div class="glyphicon glyphicon-arrow-down" id="downArrow"></div>
+      </button>
+      <button type="button" class="btn btn-lg" id="rightButton">
+          <div class="glyphicon glyphicon-arrow-right" id="rightArrow"></div>
+      </button>
+    </div>
+  </div>
+
+<div id="bottomLine"></div>
+
+<div class="row">
+  <div class="col-md-4" id="left">
+    <div id="cpminScore"></div>
+    <div id="cpcashBack"></div>
+    <div id="cptravel"></div>
+    <div id="cplowInterest"></div>
+    <div id="cpzeroPercent"></div>
+    <div id="cpbalanceTransfer"></div>
+    <div id="cppoints"></div>
+    <div id="cpgas"></div>
+    <div id="cpextendedWarranty"></div>
+    <div id="cppriceGuarantee"></div>
+</div>
+
+  <div class="col-md-4" id="middle">
+    <h4 style="padding-left: 7%">Card Details</h4>
+    <ul id="descriptionOfCard"></ul>
+  </div>
+
+  <div class="col-md-4" id="right">
+    <div id="cdCustomerService"></div>
+    <div id="cdRedemption"></div>
+    <div id="cdTechnology"></div>
+    <div id="cdSecurity"></div>
+    <div id="cdCreditBuilding"></div>
+  </div>
+</div>
+
+</body>
+
+</html>

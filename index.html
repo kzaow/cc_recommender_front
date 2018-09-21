@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- jQuery library -->
+<script src="js/jquery-3.1.1.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+
+<!-- react js -->
+<!-- <script src="https://unpkg.com/react@15/dist/react.js"></script> -->
+<!-- <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script> -->
+
+
+<!-- java script file for the website -->
+<script src="js/website.js"></script>
+
+<!-- js cookies -->
+<script src="js/site-cookies.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<title>Credit Card Recommender</title>
+
+<link rel="icon" type="image/png" href="images/icon.png"/>
+
+</head>
+
+<meta charset="utf-8"/>
+
+<body>
+
+<!-- nav bar -->
+<nav class="navbar navbar-default navigation-bar">
+  <div class="container-fluid">
+  <!-- <div class="navbar-header"> -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">
+        <img src="/images/icon.png">
+      </a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li id="all-cards">
+        <a href="#">All Credit Cards</a>
+      </li>
+      <li id="aboutus">
+        <a href="aboutus.html">Team</a>
+      </li>
+    </ul>
+    <form class="nav navbar-form navbar-right">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+
+      </div>
+      <button class="btn btn-default" id="search-button" type="submit">
+        <span class="glyphicon glyphicon-search"></span>
+      </button>
+    </form>
+  </div>
+</nav>
+<!-- end of nav bar -->
+
+  <div class="container-fluid">
+    <div class="row" id="search-requirements">
+      <div class="col-md-12">
+        <!-- drop down credit score menu -->
+        <div class="dropdown text-center">
+          <select required id="scores" class="btn btn-lg btn-tools">
+            <option value="" disabled selected hidden>Credit Score</option>
+            <option value="excellent">Excellent (720 - 850)</option>
+            <option value="good">Good (690 - 719)</option>
+            <option value="average">Average (630 - 689)</option>
+            <option value="poor">Poor (350 - 629)</option>
+          </select>
+
+          <!-- advanced features  -->
+          <!-- when this button is pressed the feature check boxes are collapsed -->
+          <button type="button" class="btn btn-info btn-lg btn-tools" data-toggle="collapse" data-target="#feature-boxes">Advanced Features</button>
+          <!-- search button -->
+          <button type="button" class="btn btn-success btn-lg btn-tools" id="go">GO!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden advanced search features -->
+  <!-- <div id="feature-boxes" class="collapse"> -->
+  <div class="container collapse" id="feature-boxes">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-3">
+            <button type="button" id="cash-back" class="features-check-box">
+              <p>Cash back</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="travel" class="features-check-box">
+              <p>Travel</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="low-interest" class="features-check-box">
+              <p>Low interest</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="zero-percent" class="features-check-box">
+              <p>Zero percent</p>
+            </button>
+          </div>
+        </div>
+
+
+
+
+    <!-- Second row of options -->
+
+        <div class="row">
+          <div class="col-md-3">
+            <button type="button" id="balance-transfer" class="features-check-box">
+              <p>Balance transfer</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="points" class="features-check-box">
+              <p>Points</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="gas" class="features-check-box">
+              <p>Gas</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="extended-warranty" class="features-check-box">
+              <p>Extended warranty</p>
+            </button>
+          </div>
+        </div>
+
+
+
+    <!-- Last row of options -->
+        <div class="row">
+          <div class="col-md-3">
+            <button type="button" id="price-guarantee" class="features-check-box">
+              <p>Price guarantee</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="customer-service" class="features-check-box">
+              <p>Customer Service</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="redemption" class="features-check-box">
+              <p>Redemption</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="credit-building" class="features-check-box">
+              <p>Credit Building</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <button type="button" id="security" class="features-check-box">
+              <p>Security</p>
+            </button>
+          </div>
+          <div class="col-md-3">
+            <button type="button" id="technology" class="features-check-box">
+              <p>Technology</p>
+            </button>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+<div id="root"></div>
+  <!-- </div> -->
+
+
+</body>
+</html>

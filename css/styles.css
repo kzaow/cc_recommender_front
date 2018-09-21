@@ -1,0 +1,118 @@
+body {
+  background-image: url(../images/credit-card-image2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+p {
+  /*font-family: Helvetica;*/
+  font-size: 20px;
+
+}
+
+/*.btn {
+  font-size: 24px;
+}*/
+
+.navbar-brand>img {
+  display: inline-block;
+  width: 50px;
+  margin-top: -15px;
+  margin-right: 25px;
+
+}
+
+#search-button {
+  /*float: right;*/
+}
+
+#search-requirements {
+  margin-top: 20%;
+}
+
+#btn {
+  position: relative;
+}
+
+#caret-padding {
+  padding-right: 65%;
+}
+
+.caret-offset {
+  margin-left: 50px;
+}
+
+.btn-tools {
+    padding: 10px 120px 10px 10px;
+    border: 0 none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.credit-score {
+  /*float: right;*/
+  text-align: center;
+}
+
+.dropdown-menu {
+
+}
+
+#advanced-search-features {
+  text-align: center;
+}
+
+#submit-search-button {
+  text-align: center;
+}
+
+.collapsing {
+  transition: height 1.0s;
+}
+
+
+.features-check-box {
+  background-color: #fdfdfd;
+  margin-top: 20px;
+  /*margin-right: 20px;
+  margin-left: 10px;*/
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid;
+  border-color:  #fdfdfd;
+  border-radius: 5px;
+  padding: 30px 30px 70px 30px;
+  width: 100%;
+  box-shadow: 5px 5px 15px #888888;
+  /*float: left;*/
+}
+
+.features-check-box:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.feature-checked {
+  background-color: #23b937;
+  border-color: #23b937;
+}
+
+.feature-checked:hover {
+  background-color: #16a117;
+  border-color: #16a117;
+}
+
+
+/*.button-pad {
+  padding: 10px 40px;
+  font-size: 16px;
+}*/
+
+/*.image-responsive {
+  height: 100%;
+}*/

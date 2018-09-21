@@ -1,0 +1,161 @@
+.navbar-brand>img {
+  display: inline-block;
+  width: 50px;
+  margin-top: -15px;
+  margin-right: 25px;
+}
+body {
+  padding-top: 80px;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+/* Card Page CSS*/
+#img{
+	padding-left: 6.5%;
+  position: relative;
+}
+
+#nameOfCard{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	padding-left: 1%;
+}
+#nameOfCard, #img{
+	display: inline-block;
+	margin: 0px;
+}
+
+h2{
+  font-size: 29px;
+}
+
+#applyButton{
+  position: relative;
+  left:10%;
+  bottom: 27px;
+  outline: none;
+}
+#backButton{
+  position: relative;
+  left:67%;
+  bottom: 27px;
+  background-color: rgba(33,150,243,1);
+  outline: none;
+}
+
+#downButton{
+  position: relative;
+  left:68%;
+  bottom: 27px;
+  background-color: rgba(33,150,243,1);
+  outline: none;
+}
+#rightButton{
+  position: relative;
+  left:69%;
+  bottom: 27px;
+  background-color: rgba(33,150,243,1);
+  outline: none;
+}
+
+#leftArrow, #downArrow, #rightArrow{
+  color: white;
+}
+
+/*#cptravel, #cpcashBack, #cpgas,#cplowInterest, #cpzeroPercent, #cpbalanceTransfer, #cppoints, #cpextendedWarranty, #cppriceGuarantee, #cpminScore,#cdCustomerService, #cdTechnology,#cdRedemption,#cdSecurity,#cdCreditBuilding{
+  border-bottom: 1px solid rgba(33,150,243,1);
+}*/
+
+span{
+	padding-left: 20px;
+}
+#top{
+	width: 100%;
+  position: relative;
+}
+#bottomLine{
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 1px solid rgba(33,150,243,1);
+}
+
+/*#middle{
+	float: left;
+	width: 33%;
+  border-left: 1px solid rgba(33,150,243,1);
+  border-right: 1px solid rgba(33,150,243,1);
+  margin-top: 1%;
+  padding-top: 10px;
+  margin-bottom: 1%;
+}
+#left{
+	float:left;
+	width: 33%;
+	padding-left: 7%;
+	padding-right: 7%;
+  padding-top: 25px;
+}
+#right{
+	float: left;
+	width: 33%;
+	/*border-left: 1px solid rgba(33,150,243,1);
+	padding-left: 7%;
+	padding-right: 7%;
+  margin-top: 1%;
+  padding-top: 10px;
+}*/
+
+#left,#right{
+  margin-top: 1%;
+  padding-top: 10px;
+  margin-bottom: 1%;
+  padding-left: 7%;
+	padding-right: 7%;
+}
+
+#middle{
+  border-left: 1px solid rgba(33,150,243,1);
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#descriptionOfCard{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+li{
+  padding: 4px;
+}
+h4{
+  font-weight: bold;
+}
+html,body{
+    overflow-x: hidden;
+    background-color: #F1F5F8;
+}
+
+@media only screen and (max-width:500px){
+  #img{
+    padding-top: 50px !important;
+    padding-left: 64px;
+  }
+  #nameOfCard{
+    text-align: center;
+  }
+  #issuerName{
+    position: relative;
+    left:-8px !important;
+    bottom: 5px !important;
+  }
+  #PNN{
+    position: relative;
+    bottom: 35px !important;
+    left: 271px !important;
+  }
+  #applyButton{
+    position: relative;
+    left: 30% !important;
+    bottom: 10px !important;
+  }
+}
